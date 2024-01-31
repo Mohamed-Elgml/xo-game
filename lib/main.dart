@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       initialRoute: LoginXoGame.routName,
       debugShowCheckedModeBanner: false,
       routes: {
+
         LoginXoGame.routName: (context) => LoginXoGame(),
         XoGameHome.routName:(context)=>XoGameHome(),
       },

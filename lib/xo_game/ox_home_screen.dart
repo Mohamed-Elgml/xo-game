@@ -32,9 +32,9 @@ class _XoGameHomeState extends State<XoGameHome> {
     PlayersModel model=ModalRoute.of(context)!.settings.arguments as PlayersModel;
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           "XO GAME",
-          style: TextStyle(
+          style: const TextStyle(
             color: Colors.white,
             fontSize: 22,
           ),
@@ -53,14 +53,14 @@ class _XoGameHomeState extends State<XoGameHome> {
                       children: [
                         Text(
                           model.player1Name,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 25,
                             color: Colors.black,
                           ),
                         ),
                         Text(
                           "$score1",
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 25,
                             color: Colors.black,
                           ),
@@ -74,14 +74,14 @@ class _XoGameHomeState extends State<XoGameHome> {
                       children: [
                         Text(
                           model.player2Name,
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 25,
                             color: Colors.black,
                           ),
                         ),
                         Text(
                           "$score2",
-                          style: TextStyle(
+                          style: const TextStyle(
                             fontSize: 25,
                             color: Colors.black,
                           ),
